@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    
+    <link rel="stylesheet" href="./style.css">
     <title>Estacionamento</title>
 </head>
-<body>
-    <input  type="text" id="nome" placeholder="Nome do veículo: " autocomplete="off">
-    <input  type="text" id="placa" placeholder="Digite a placa do veículo: " autocomplete="off">
-    <button id="cadastrar">Cadastrar</button>
-    <table>
-        <thead>
-            <th>Nome</th>
-            <th>Placa</th>
-            <th>Entrada</th>
-            <th>Ações</th>
-        </thead>
-        <tbody id="patio"></tbody>
-    </table>
 
+<body>
+    <header>
+        <img src="./img/CarParkinng2.png" alt="">
+        <h1>CarParking</h1>
+    </header>
+    <main>
+        <p>Sistema de estacionamento simples e completo</p>
+        <div class="formulario">
+            <input type="text" id="nome" placeholder="Nome do veículo" autocomplete="off">
+            <input type="text" id="placa" placeholder="Digite a placa do veículo" autocomplete="off">
+        </div>
+        <button id="cadastrar">Cadastrar</button>
+        <table class="tabela">
+            <thead>
+                <th>Nome</th>
+                <th>Placa</th>
+                <th>Entrada</th>
+                <th>Ações</th>
+            </thead>
+            <tbody id="patio"></tbody>
+        </table>
+    </main>
+    <footer>logos redes sociales</footer>
     <script src="./script.js"></script>
 </body>
+
 </html>

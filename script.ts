@@ -31,7 +31,9 @@ interface Veiculo {
                 <td>${veiculo.placa}</td>
                 <td>${veiculo.entrada}</td>
                 <td>
-                <button class="delete" data-placa="${veiculo.placa}">X</button>
+                <button class="delete" data-placa="${veiculo.placa}"><span class="material-symbols-outlined">
+                close
+                </span></button>
                 </td>
             `;
 

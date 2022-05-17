@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E3E8ED;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 8rem;
+}
+
+img {
+    width: 80px;
+}
+
+header {
+    display: flex;
+    justify-content: start;
+    margin: 0.5rem;
+    font-size: 25px;
+    color: #20679c;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+input {
+    border-radius: 0.5rem;
+    font-size: 14px;
+    padding: 0.5rem;
+}
+
+
+#cadastrar {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    border-radius: 1.4rem;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    height: 50px;
+    background-color: #20679c;
+    color: white;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f5f5f5
+}
+
+.tabela {
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+}
+
+/*.tabela th {
+    border: 1px solid black;
+    padding: 0.4rem;
+}*/
+
+.delete {
+    cursor: pointer;
+    border: none;
+}
