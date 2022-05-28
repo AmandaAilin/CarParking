@@ -22,6 +22,14 @@
 ## Descrição do Projeto:
 Carparking é uma app de sistema de estacionamento. Foi feito com Typescript como parte de um desafio no bootcamp Spread Fullstack Developer na plataforma da Digital Innovation One.
 
+### Proximos pasos:
+
+- [ ] adicionar acessibilidade
+- [ ] media query
+- [ ] adicionar icon
+- [ ] melhorar estilização
+</br>
+
 </br>
 
 ## Funcionalidades:
